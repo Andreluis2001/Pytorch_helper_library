@@ -37,7 +37,7 @@ def download_data(
     if remove_source:
       os.remove(data_dir_path / target_zip_file)
 
-    return data_path
+  return data_path
 
 def create_dataloaders(
     train_dir: str,
